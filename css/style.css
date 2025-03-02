@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+header{
+    background-color: bisque;
+    text-align: center;
+    color: rgb(35, 40, 73);
+    padding: 10px;
+    font-size: 24px;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    background-color: #11092eda;
+    padding: 10px;
+    position: sticky;
+    top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(151, 6, 6);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+P {
+    font-size: 20px;
+}
+
+li {
+    font-size: 22px;
+    font-weight: 10px;
+}
+
+#accueil {
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-accueil h1 {
+ font-size: 40px;
+}
+.text-accueil p {
+    font-size: 25px;
+}
+
+#intro, #types, #outils, #creation, #exemple, #avantages, #conclusion {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: #d2ddf9;
+}
+
+.intro-visualisation {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 30px;
+}
+
+.intro-visualisation div, {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#types {
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;  
+    color: azure;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre-type h1 {
+    color:#fff;
+}
+
+.titre-type {
+    margin-bottom: 20px;
+}
+
+.align-type {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.align-type div {
+    margin-left : 20px; 
+    margin-right: 40px;
+}
+
+#outils, #avantages, #creation, #exemple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2ddf9;
+}
+
+.images-left-outils, .image-avantages, .image-creation, .image-exemple {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.images-left-outils img, .image-avantages img, .image-creation img, .image-exemple img {
+    height: 600px;
+}
+
+.picto-outils {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.list-avantage, .list-order, .list-creation, .exemple-concret {
+    margin-left: 40px;
+}
+
+.page-exemple {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+#avantages, #exemple {
+    background-color: #fff !important;
+}
+
+#conclusion {
+    background-color: #d2ddf9;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    background-color: #11092eda;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
