@@ -1,2 +1,0 @@
-# maquette
-Projet de veille
